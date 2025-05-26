@@ -7,12 +7,14 @@ dotenv.config(); //translates the .env file
 
 const app = express();
 
+const PORT = process.env.PORT
+
 app.use(express.json()); //allows us to accept JSON data in the req.body (middleware)
 
 app.use("/api/products", productRoutes); //using the routes and the endpoints from here, to look more clear
 
-app.listen(5000, () => {
+app.listen(PORT, () => {
     connectDB(); //connect to the database function
-    console.log("Server started at http://localhost:5000"); //server port
+    console.log("Server started at http://localhost:", PORT); //server port
 })
 
