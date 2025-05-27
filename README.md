@@ -15,6 +15,14 @@ prod-store/
 └── .gitignore
 ```
 
+##💻Tech Stack
+- Node.js
+- Express.js
+- React
+- Vite
+- MongoDB
+- Postman
+
 ## 🚀 Telepítés
 
 1. **Repo klónozása:**
