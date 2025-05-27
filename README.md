@@ -15,7 +15,7 @@ prod-store/
 └── .gitignore
 ```
 
-##💻Tech Stack
+## 💻Tech Stack
 - Node.js
 - Express.js
 - React
